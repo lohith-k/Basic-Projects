@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0px;
+    padding:0px;
+    background-color: burlywood;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    box-sizing: border-box;
+}
+
+.container
+{
+    width:500px;
+    height:600px;
+    border-radius: 12px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+}
+
+.header
+{
+    width:500px;
+    height:150px;
+    background-color:rgb(68, 201, 206);
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    color:lightgrey;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.content
+{
+    padding:20px;
+    width:460px;
+    height:410px;
+    background-color: black;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    color:white;
+    
+    
+}
+.weekdays
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.weekdays div{
+    width:65px;
+    height:70px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.day
+{
+    color: white;
+}
+.days
+{
+    display:flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.days div{
+    width:65px;
+    height:70px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.days div:hover:not(.empty){
+    border:2px solid white;
+}
+
+.today
+{
+    background-color:coral;
+}

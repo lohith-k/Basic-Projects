@@ -1,0 +1,115 @@
+body{
+    margin:0px;
+    padding:0px;
+    display:flex;
+    justify-content: center;
+    height:100vh;
+    align-items: center;
+    background-color: coral;
+}
+
+.clock
+{
+    position: relative;
+    height:400px;
+    width:400px;
+    background-color: lightgrey;
+    border-radius: 50%;
+    border:5px darkgray solid;
+    text-shadow: 10px 10px 10px rgba(0,0,0,0.9);
+
+}
+
+img
+{
+    position:absolute;
+    width:150px;
+    top:15%;
+    left:50%;
+    transform: translateX(-50%);
+}
+
+.h12
+{
+    position: absolute;
+    font-family: cursive;
+    font-size: x-large;
+    left: 50%;
+    transform: translateX(-50%);
+    text-shadow: 5px 5px 10px rgba(0,0,0,0.9);
+}
+.h3
+{
+    position: absolute;
+    font-family: cursive;
+    font-size: x-large;
+    top: 50%;
+    right:0%;
+    transform: translate(-50%,-50%);
+    text-shadow: 5px 5px 10px rgba(0,0,0,0.9);
+
+}
+.h6
+{
+    position: absolute;
+    font-family: cursive;
+    font-size: x-large;
+    left: 50%;
+    bottom:0%;
+    transform: translate(-50%,-50%);
+    text-shadow: 5px 5px 10px rgba(0,0,0,0.9);
+
+}
+.h9
+{
+    position: absolute;
+    font-family: cursive;
+    font-size: x-large;
+    top: 50%;
+    transform: translatey(-50%);
+    text-shadow: 5px 5px 10px rgba(0,0,0,0.9);
+
+}
+
+.center
+{
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+    background-color: darkgreen;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    z-index: 4;
+}
+
+.hand
+{
+    width:10px;
+    background-color: white;
+    border-radius: 50%;
+    position:absolute;
+    left:50%;
+    transform: translateX(-50%);
+    bottom:50%;
+    transform-origin: bottom center;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.9);
+}
+
+#hour
+{
+    height:120px;
+
+}
+
+#minute
+{
+    height:150px;
+}
+
+#second
+{
+    height:160px;
+    background-color: yellow;
+}

@@ -1,0 +1,44 @@
+body
+{
+    margin:0px;
+    padding:0px;
+    display: flex;
+    justify-content: center;
+    height:100vh;
+    align-items: center;
+    background-color: yellow;
+}
+
+.container
+{
+    height:300px;
+    width:600px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.emoji
+{
+    font-size: 70px;
+    color: rgb(152, 180, 204);
+}
+
+.star
+{
+    font-size: 70px;
+    color: lightgray;
+}
+
+.star:hover
+{
+    cursor: pointer;
+}
+
+.active
+{
+    color:gold;
+}

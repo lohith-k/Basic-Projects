@@ -1,0 +1,42 @@
+body
+{
+    margin:0px;
+    padding:0px;
+    display: flex;
+    height:100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: skyblue;
+}
+
+.container
+{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+textarea
+{
+    height:80px;
+    width:480px;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+
+}
+
+.choice
+{
+    margin:20px 10px;
+    height:25px;
+    background-color: orange;
+    padding:10px;
+    border-radius: 20px;;
+}
+.choices
+{
+    display: flex;
+    flex-wrap:wrap ;
+    width:400px;
+}

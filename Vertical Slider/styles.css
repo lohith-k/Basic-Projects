@@ -1,0 +1,111 @@
+body
+{
+    padding:0px;
+    margin:0px;
+    display: flex;
+}
+
+.left
+{
+    width:30vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+}
+
+.content1
+{
+    height: 100%;
+    background-color: #c97007;
+    text-align: center;
+    width:30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content2
+{
+    height: 100vh;
+    background-color:lavender;
+    text-align: center;
+    width:30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content3
+{
+    height: 100vh;
+    background-color: #527a53;
+    text-align: center;
+    width:30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content4
+{
+    height: 100vh;
+    background-color: #cbe2e7;
+    text-align: center;
+    width:30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.right
+{
+    width:70vw;
+    height:100vh;
+    position: relative;
+    transition: 2s;
+}
+
+.lbut
+{
+    position: absolute;
+    right:0px;
+    top:50vh;
+    height:40px;
+    width:40px;
+    color: darkgray;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+.rbut
+{
+    position: absolute;
+    left:0px;
+    bottom:50vh;
+    height:40px;
+    width: 40px;
+    color: darkgray;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover
+{
+    opacity: 0.8;
+    color: black;
+}
+
+img{
+    height:99.5vh;
+    width:70vw;
+    transition: 2s;
+}

@@ -1,0 +1,99 @@
+body{
+    margin:0px;
+    background-image: url("https://picsum.photos/id/10/2500/1667");
+    height:100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.input
+{
+    width:40vw;
+    height:10vh;
+    display: flex;
+    justify-content: center;
+}
+
+.input input{
+    width:30vw;
+    height:4vh;
+    border-radius: 12px;;
+    padding:1vh;
+    font-size: larger;
+}
+
+.input button{
+    height: 7vh;
+    width:5vw;
+    border-radius: 12px;;
+    padding:1vh;
+    font-size: larger;
+    background-color: white;
+    border:green solid 2px;
+    margin:0px  10px   ;
+}
+
+.input input:hover
+{
+    border:green solid 2px;
+}
+
+.input button:hover{
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+.tasks
+{
+    width:40vw;
+   
+    margin:10px;
+}
+
+.task
+{
+    width:40vw;
+    display:flex;
+    justify-content: space-between;
+    background-color: antiquewhite;
+    padding:5px 10px;;
+    border-radius: 12px;
+    font-family: cursive;
+    font-size: 20px;
+    margin:5px;
+}
+
+.task p{
+    width:75%;
+}
+
+.task button
+{
+    padding:5px;
+    font-family: cursive;
+    font-size: 20px;
+    margin:5px;
+    border-radius: 10px;
+    border:none;
+}
+
+.completed:hover{
+    background-color: orange;
+    color: white;
+}
+
+.delete:hover
+{
+    background-color: red;
+    color: white;
+}

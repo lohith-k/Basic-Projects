@@ -1,0 +1,36 @@
+body{
+    margin:0px;
+    height: 100vh;;
+    
+}
+
+span
+{
+    background: url("https://cdn3.iconfinder.com/data/icons/emotions-1/154/emotion-happy-look-thanks-ok-accept-256.png") no-repeat;
+    width: 100px;
+    pointer-events: none;;
+    height:100px;
+    position: absolute;
+    background-size: cover;
+    
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+   animation: animate 6s linear;
+}
+
+@keyframes animate
+{
+    0%
+    {
+        transform:translate(-50%,-50%);
+        opacity:1;
+        filter:hue-rotate(0)
+    }
+    100%
+    {
+        transform:translate(-50%,-2000%);
+        opacity:0;
+        filter: hue-rotate(720deg);
+    }
+}

@@ -1,0 +1,19 @@
+body{
+    margin:0px;
+}
+
+.bg-img
+{
+    background: url("https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YmFja2dyb3VuZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60");
+    height:100vh;
+    width:100vw;
+    background-attachment: fixed;
+    background-size: 160%;
+}
+
+.container
+{
+    text-align: center;
+    font-size: larger;
+    height:100vh;
+}

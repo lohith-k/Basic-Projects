@@ -1,0 +1,23 @@
+body
+{
+    margin:0px;
+    padding:0px;
+    display: flex;
+    justify-content: center;
+    font-family: cursive;
+}
+
+.container
+{
+    margin:20px;
+    border:solid black 2px;
+    background-color: blanchedalmond;
+    width:500px;
+    text-align: center;
+    padding: 10px;
+}
+
+button{
+    width:90px;
+    height:30px;
+}

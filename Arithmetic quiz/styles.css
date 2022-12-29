@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+*
+{
+    margin :0px;
+    padding:0px;
+   
+}
+body{
+    background-color: yellow;
+    font-family: 'Lobster', cursive;
+
+}
+
+h2{
+    text-align: center;
+    margin:20px auto;
+}
+.container
+{
+    width:20vw;
+    height:20vh;     
+    background-color: azure;
+    border-radius: 12px;
+    margin:20vh auto;
+    padding:40px;
+}
+
+#score
+{
+    margin:0% 0% 0% 60%;
+    color: green;
+    font-weight: bolder;
+}
+
+#question
+{
+    margin:10px;
+    font-size:x-large;
+    text-align: center;
+}
+
+#answer
+{
+    height:5vh;
+    width: 100%;
+    border-width: 4px;
+    border-color: green;
+    border-style: solid;
+}
+
+.container button{
+    width:103%;
+    height:5vh;
+    margin:10px 0px;
+    background-color: green;
+    border-width: 4px;
+    border-radius: 10px;;
+}
+

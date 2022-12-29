@@ -1,0 +1,100 @@
+body{
+    margin:0px;
+    padding:0px;
+    display:flex;
+    justify-content: center;
+    height:100vh;
+    align-items: center;
+    background: linear-gradient(135deg,purple 20%, orange 80%);
+    font-family: fantasy;
+}
+
+.menu
+{
+    display:flex;
+    width:300px;
+    height:40px;
+    background-color:lightgray;
+    justify-content: space-between;
+    padding: 5px 20px;
+    align-items: center;
+    opacity: 0.3;
+    border-radius: 6px;;
+}
+
+.menu p{
+    margin:0px;
+    font-size: 20px;
+}
+
+.menu i
+{
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding: 0px 15px; 
+    background-color: lightgray;
+    opacity:0.3; 
+    border-radius: 5px;
+}
+
+ul li
+{
+    display: flex;
+    align-items: center;
+    height:30px; 
+    margin:10px 0px;
+    width:300px;
+    padding:5px ;
+}
+
+li i{
+    margin:0px 10px;
+}
+
+.fa-twitter
+{
+    color: rgb(20, 112, 252);
+}
+.fa-facebook
+{
+    color: rgb(0, 66, 165);
+}
+.fa-instagram
+{
+    color: rgb(252, 20, 117);
+}
+.fa-youtube
+{
+    color: red;
+}
+
+ul li:hover
+{
+    background-color: darkgray;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+
+.rotate .fa-chevron-down
+{
+    transform: rotate(180deg);
+}
+
+.list.hide
+{
+    visibility:hidden;
+}
+
+.menu p{
+    margin:0px 10px;
+    display: flex;
+    align-items: center;
+
+}

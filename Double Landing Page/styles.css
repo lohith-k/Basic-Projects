@@ -1,0 +1,64 @@
+body
+{
+    margin:0px;
+    padding:0px;
+    display: flex;
+    height:100vh;
+
+}
+
+.left
+{
+    width:50%;
+    background-color: pink;
+    transition:2s;
+    background: url('iphone.png');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1
+{
+    width:100%;
+    text-align: center;
+    color: black;
+    top:20%;
+    font-size: 50px;;
+    backdrop-filter: brightness(0.5);
+}
+
+.right
+{
+    width:50%;
+    background-color: aliceblue;
+    transition:2s;
+    background: url('samsung.png');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img{
+    width:80%;
+    height:90%;
+}
+
+button
+{
+    text-align: center;
+    width:100px;
+    height:50px;
+    color: white;
+    background-color: black;
+    border :2px solid white;
+}
+
+button:hover
+{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border :2px solid black;
+}

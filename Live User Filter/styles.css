@@ -1,0 +1,68 @@
+body{
+    margin:0px;
+    padding:0px;
+    display: flex;
+    justify-content: center;
+    height:100vh;
+    align-items: center;
+    font-family: cursive;
+    background-color: azure;
+}
+
+.container
+{
+    width:350px;
+    border-radius: 10px;;
+    background-color: white;
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.3);
+}
+
+.header
+{
+    background-color: rgb(59, 59, 167);
+    color:white;
+    padding:20px;
+}
+.header h2{
+    margin:0px;
+}
+
+.filter
+{
+    width:90%;
+    height:25px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    padding:10px 15px;
+    font-family: cursive;
+    font-size: 20px;
+    letter-spacing: 2px;;
+    background-color: rgb(32, 32, 86);
+    color:aliceblue;
+}
+
+.content
+{
+    height:420px;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+}
+
+.user
+{
+    display: flex;
+    align-items: center;
+}
+
+.user img{
+    border-radius: 50%;
+    height:60px;
+    margin:20px;
+}
+
+.user.hide
+{
+    display: none;
+}

@@ -1,0 +1,61 @@
+E:\WEB DEVELOPMENT\Projects\All Project Viewer
+E:\WEB DEVELOPMENT\Projects\Analog watch
+E:\WEB DEVELOPMENT\Projects\Animal Sounds
+E:\WEB DEVELOPMENT\Projects\Animated Search Bar
+E:\WEB DEVELOPMENT\Projects\Arithmetic quiz
+E:\WEB DEVELOPMENT\Projects\Auto text Effect
+E:\WEB DEVELOPMENT\Projects\background img scroll
+E:\WEB DEVELOPMENT\Projects\Background video
+E:\WEB DEVELOPMENT\Projects\Blurry Loading
+E:\WEB DEVELOPMENT\Projects\Calculator
+E:\WEB DEVELOPMENT\Projects\Calendar
+E:\WEB DEVELOPMENT\Projects\Counter
+E:\WEB DEVELOPMENT\Projects\Dark Mode Toggle
+E:\WEB DEVELOPMENT\Projects\Digital watch
+E:\WEB DEVELOPMENT\Projects\Double Landing Page
+E:\WEB DEVELOPMENT\Projects\Emoji rating
+E:\WEB DEVELOPMENT\Projects\Hotstar Clone
+E:\WEB DEVELOPMENT\Projects\Image slider
+E:\WEB DEVELOPMENT\Projects\img
+E:\WEB DEVELOPMENT\Projects\Live User Filter
+E:\WEB DEVELOPMENT\Projects\Loading bar
+E:\WEB DEVELOPMENT\Projects\Mini Calendar
+E:\WEB DEVELOPMENT\Projects\Mouse Events
+E:\WEB DEVELOPMENT\Projects\Music Player
+E:\WEB DEVELOPMENT\Projects\Navbar
+E:\WEB DEVELOPMENT\Projects\New Year Countdown
+E:\WEB DEVELOPMENT\Projects\popup background
+E:\WEB DEVELOPMENT\Projects\Practice
+E:\WEB DEVELOPMENT\Projects\Profile Statistics
+E:\WEB DEVELOPMENT\Projects\QnA
+E:\WEB DEVELOPMENT\Projects\Random Color Generator
+E:\WEB DEVELOPMENT\Projects\Random Password Generator
+E:\WEB DEVELOPMENT\Projects\Random photo generator
+E:\WEB DEVELOPMENT\Projects\Randon choice picker
+E:\WEB DEVELOPMENT\Projects\Restaurent
+E:\WEB DEVELOPMENT\Projects\Ripple Effect
+E:\WEB DEVELOPMENT\Projects\Rock Paper Scissors
+E:\WEB DEVELOPMENT\Projects\Rotating gallery
+E:\WEB DEVELOPMENT\Projects\Sidebar
+E:\WEB DEVELOPMENT\Projects\Social media select menu
+E:\WEB DEVELOPMENT\Projects\Step Progress  Bar
+E:\WEB DEVELOPMENT\Projects\Sticky navbar
+E:\WEB DEVELOPMENT\Projects\Stopwatch
+E:\WEB DEVELOPMENT\Projects\Tabs Section
+E:\WEB DEVELOPMENT\Projects\Tasks
+E:\WEB DEVELOPMENT\Projects\Testimonial generator
+E:\WEB DEVELOPMENT\Projects\Tic Tac Toe
+E:\WEB DEVELOPMENT\Projects\To do list
+E:\WEB DEVELOPMENT\Projects\Trail Animations
+E:\WEB DEVELOPMENT\Projects\Vertical Slider
+E:\WEB DEVELOPMENT\Projects\Video player
+E:\WEB DEVELOPMENT\Projects\Word counter
+E:\WEB DEVELOPMENT\Projects\Animal Sounds\images
+E:\WEB DEVELOPMENT\Projects\Animal Sounds\Sounds
+E:\WEB DEVELOPMENT\Projects\Hotstar Clone\hotstar img
+E:\WEB DEVELOPMENT\Projects\Music Player\css
+E:\WEB DEVELOPMENT\Projects\Music Player\img
+E:\WEB DEVELOPMENT\Projects\Music Player\js
+E:\WEB DEVELOPMENT\Projects\Music Player\songs
+E:\WEB DEVELOPMENT\Projects\To do list\css
+E:\WEB DEVELOPMENT\Projects\To do list\js

@@ -1,0 +1,295 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: roboto,Arial, Helvetica, sans-serif;
+
+}
+
+body{
+    background-color: #181f2c;
+}
+
+.navbar
+{
+    height:10vh;
+    background-color:#141b29;
+    display: flex;
+    color: lightgray;
+    justify-content: space-between;
+    align-items: center;
+    font-family: roboto,Arial, Helvetica, sans-serif;
+}
+
+.leftnav
+{
+    display: flex;
+    margin:0px 30px;
+}
+
+.leftnav a
+{
+    color: lightgray;
+    text-decoration: none;
+    margin:0px 15px;
+}
+.leftnav a:hover
+{
+    color: white;
+}
+.rightnav
+{
+    display: flex;
+    margin: 0px 30px;
+    align-items: center;
+    
+}
+
+.rightnav input{
+    background: none;
+    height:3vh;
+    width:15vw;
+    margin:10px;
+    padding:3px;
+    border-color: #141b29;
+    border-bottom: white;
+    border-bottom: 70px;
+    color: darkgray;
+    
+}
+.rightnav i{
+    margin:10px;
+}
+
+.slider
+{
+    position: relative;
+    background-color: #141b29;
+    height:400px;
+    margin:20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.imgcontainer
+{
+    height:400px;
+    display: flex;
+    transition: 0.9s linear ;
+}
+
+.eachslide
+{
+   
+    display: flex;
+    height: 400px;
+    justify-content: space-between;
+    width:1496px;
+}
+.sliderdetails
+{
+    height: 400px;
+    width: 748px;
+    color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.slidertitle
+{
+    font-size: 30px;
+    margin:0 0px 5px 50px;
+}
+
+.slidermetadeta
+{
+    font-size: 20px;
+    margin:0 0px 5px 50px;
+}
+.sliderdesc
+{
+    font-size: 20px;
+    margin:0px 0px 5px 50px;
+}
+
+.eachslide img{
+    height:400px;
+    border-bottom-right-radius:10px;
+    border-top-right-radius: 10px;
+    width:748px;
+}
+
+.slider i{
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    font-size: xx-large;
+    cursor: pointer;
+    color:white;
+}
+.slider i:hover{
+    opacity: 0.9;
+}
+.slideprev
+{
+    left:10px;
+}
+
+.slidenext
+{
+    right:10px;
+}
+
+.tray
+{
+    position: relative;
+    margin:20px;
+    padding:5px;
+    overflow: hidden;
+}
+
+.traytitle
+{
+    color: white;
+    font-size: 20px;
+    margin:10px;
+}
+
+.trayslider
+{
+    width:100%;
+}
+
+.trayitems
+{
+    margin:10px;
+    display: flex;
+    transition: 0.9s;
+}
+
+.trayitem{
+    margin:0px 5px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.trayitemland
+{
+    margin:0px 5px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.trayitem img{
+    border-radius: 5px;
+}
+.trayitemland img{
+    border-radius: 5px;
+}
+
+.nexttray
+{
+    position: absolute;
+    top:50%;
+    right:20px;
+    transform:translateY(-50%);
+    color: white;
+    z-index: 2;
+}
+.prevtray
+{
+    position: absolute;
+    top:50%;
+    transform:translateY(-50%);
+    color: white;
+    z-index: 2;
+}
+.nexttray:hover{
+    scale: 1.5;
+}
+.prevtray:hover{
+    scale: 1.5;
+}
+.trayitem:hover{
+    transform: scale(1.4); 
+    cursor: pointer;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.trayitemdetails
+{
+    position:absolute;
+    color: white;
+    bottom: 15px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    font-weight: bolder;
+    width:100%;
+}
+
+.trayitemdetails p:nth-child(2)
+{
+    font-size: 13px;;
+}
+
+.trayitemdetails p:nth-child(3)
+{
+    font-size: 12px;
+    color: darkgray;
+}
+
+.onbutton
+{
+    background-color:none;
+    border: none;
+    font-size: 13px;
+    color: darkgray;
+    border-radius: 2px;
+    width: 90%;
+}
+
+.onbutton:hover{
+    background-color:rgb(65, 56, 56)
+}
+
+.footer
+{
+    padding:20px;
+    display:flex;
+    justify-content: space-between;
+    color: darkgray;
+
+}
+
+.column
+{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:auto
+}
+.column:nth-child(1)
+{
+    flex:2
+}
+
+
+.footerlist
+{
+    display: flex;
+}
+.footerlist a{
+    color: darkgray;
+    text-decoration: none;
+    margin:10px;
+}
+
+.footerlist a:hover{
+    color: rgb(72, 72, 185);
+}
+
+.copyright
+{
+    font-size: 12px;;
+}

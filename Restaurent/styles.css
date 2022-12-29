@@ -1,0 +1,147 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    border-right:solid black 5px; ;
+    width: 25vw;
+    padding:5px 15px;
+    position: fixed;
+}
+
+.sidebar h2{
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 75vw;
+    padding:5px 15px;
+    margin-left: 27vw;
+}
+.main h2{
+    text-align: center;
+}
+
+.searchtable
+{
+    height:40px;
+    width:250px;
+    border: none;
+    box-shadow: 2px 2px 5px 2px rgba(0,0,0,0.2);
+    outline: none;
+    padding: 0px 5px;
+    border-radius: 3px;
+    margin:10px  25px;
+    font-weight: 700;
+}
+.searchmain
+{
+    height:40px;
+    width:250px;
+    border: none;
+    box-shadow: 2px 2px 5px 2px rgba(0,0,0,0.2);
+    outline: none;
+    padding: 0px 5px;
+    border-radius: 3px;
+    margin:10px  25px;
+    font-weight: 700;
+}
+
+.table
+{
+    height:100px;
+    box-shadow: 2px 2px 5px 2px rgba(0,0,0,0.2);
+    padding: 15px 20px;
+    border-radius: 5px;
+    margin:10px;
+    cursor: pointer;
+}
+
+.main .searchmain
+{
+    width:700px;
+}
+
+.item
+{
+    height:75px;
+    box-shadow: 2px 2px 5px 2px rgba(0,0,0,0.2);
+    padding: 15px 20px;
+    border-radius: 5px;
+    margin:10px;
+}
+
+.item h1{
+    margin: 0px;
+    font-weight: 600;
+}
+
+.order
+{
+    position: absolute;
+    top:50vh;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color: aliceblue;
+    width:600px;
+    border-radius: 2px;;
+    display: none;
+}
+
+.row
+{
+    display: flex;
+    justify-content: space-between;
+    padding:20px;
+}
+
+
+
+.row1
+{
+    display: flex;
+    justify-content: space-between;
+    padding:20px;
+    height:40px;
+    background-color: rgb(5, 5, 132);
+    margin:0px;
+    padding:5px;
+    color: white;
+    font-weight: 300;
+}
+.row1 h2
+{
+    margin: 0px;
+    font-weight: 100;
+}
+.row1 i
+{
+    cursor: pointer;
+}
+
+.row input
+{
+    width:80px;
+}
+
+
+.session:hover
+{
+    color:rgb(23, 23, 75);
+    cursor: pointer;
+}
+
+i:hover{
+
+    cursor: pointer;
+}

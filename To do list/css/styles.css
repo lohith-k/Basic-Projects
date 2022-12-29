@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+*
+{
+    margin:0px;
+    padding:0px;
+    font-family: 'Fjalla One', sans-serif;
+
+}
+
+header{
+    margin:1%;
+    text-align: center;
+}
+
+.row
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin:2vh 0;
+    align-items: center;
+}
+.row label{
+    margin:0 1vh 0 0;
+}
+.row input{
+    margin:0 0 0 5vh;
+    width:20%;
+
+    height:5vh;
+}
+.row textarea
+{
+    margin:0 0 0 1vh;
+    width:20%;
+    height:60px;
+    padding:0.5rem;
+}
+
+.container
+{
+    display:flex;
+    flex-direction: column;
+    
+}
+.container button{
+    width:auto;
+}
+.task
+{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height:30vh;
+    background-color: antiquewhite;
+    width:20vw;
+    margin:2vh 0vh;
+    padding:2vh;
+    border-radius: 12px;
+}
+
+.tasks{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width:90%;
+    justify-content:space-between;
+    margin: 0% 5%;
+    padding:5vh;
+}

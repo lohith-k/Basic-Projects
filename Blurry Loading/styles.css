@@ -1,0 +1,32 @@
+body{
+    margin:0px;
+    padding:0px;
+    display: flex;
+    height:100vh;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.bg
+{
+    background: url("bg.jpg");
+    height:calc(100vh + 30px);
+    width:calc(100vw + 30px);
+    background-size: cover;
+    color: aliceblue;
+    top:-30px;
+    left: -30px;
+    position:absolute;
+    z-index: -1;
+    filter:blur(30px);
+}
+
+
+.loader
+{
+    color: azure;
+    font-size:25px;
+    font-family:fantasy;
+    letter-spacing: 4px;;
+}
+

@@ -1,0 +1,44 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    font-family: cursive;
+}
+
+.container {
+    display: flex;
+}
+
+.item {
+    position: relative;
+    height: 150px;
+    width: 250px;
+    border: 2px green dotted;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.number {
+    margin:20px 0 0 0 ;
+    font-size: 60px;
+    color: green;
+    transition: 0.6s;
+}
+
+p {
+    font-weight: bolder;
+}
+
+i {
+    position: absolute;
+    font-size: 50px;
+    top:-25px;
+}

@@ -1,0 +1,41 @@
+body
+{
+    margin:0px;
+    padding:0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height:100vh;
+    align-items: center;
+}
+
+.loading
+{
+    display: flex;
+}
+
+.citem
+{
+    width:15px;
+    height:15px;
+    background-color: rgb(0, 0, 54);
+    margin:10px;
+    border-radius: 50%;
+    animation-name: toggle;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes toggle {
+    from {
+    
+        background-color: rgb(0, 0, 54);
+        width:15px;
+        height:15px;
+    }
+    to {
+    
+        background-color: rgb(0, 157, 255);
+        width:5px;
+        height:5px;
+    }
+  }

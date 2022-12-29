@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Step Progress Bar</title>
+</head>
+<body>
+    <div class="progress-container">
+        <div class="line">
+            <hr class="behindline" />
+            <hr class="frontline" />
+            <div class="progress">
+                <div class="item active">
+                    <i class="fa-solid fa-check"></i>
+                    <small>Start</small>
+                </div>
+                <div class="item">
+                    <i class="fa-solid fa-xmark"></i>
+                    <small></small>
+                </div>
+                <div class="item">
+                    <i class="fa-solid fa-xmark"></i>
+                    <small></small>
+                </div>
+                <div class="item ">
+                    <i class="fa-solid fa-xmark"></i>
+                    <small></small>
+                </div>
+                <div class="item">
+                    <i class="fa-solid fa-xmark"></i>
+                    <small></small>
+                </div>
+            </div>
+    </div>
+    <div class="btns">
+        <button class="left" disabled><i class="fa-solid fa-left-long"></i></button>
+        <button class="right"><i class="fa-solid fa-right-long"></i></button>
+    </div>
+</div>
+<script src="script.js" ></script>
+</body>
+</html>

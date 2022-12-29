@@ -1,0 +1,35 @@
+All Project Viewer
+all.txt
+Analog watch
+Animal Sounds
+Arithmetic quiz
+Auto text Effect
+background img scroll
+Background video
+Calculator
+Calendar
+Counter
+Dark Mode Toggle
+Digital watch
+FolderList.txt
+Hotstar Clone
+Image slider
+Loading bar
+Mini Calendar
+Mouse Events
+Music Player
+Navbar
+popup background
+QnA
+Random Color Generator
+Random photo generator
+Ripple Effect
+Sidebar
+Sticky navbar
+Tabs Section
+Tasks
+Testimonial generator
+To do list
+Trail Animations
+Video player
+Word counter
